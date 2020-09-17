@@ -5,6 +5,14 @@ tags:
   - demo-content
   - code
   - blog
+  - posting
+  
+pagination:
+    data: posts.posts
+    size: 1
+    alias: post
+
+permalink: "blog/{{ post.path | slug }}/"
 ---
 The best way to demo a code post is to display a real life post, so check out this one from [andy-bell.design](https://andy-bell.design/wrote/creating-a-full-bleed-css-utility/) about a full bleed CSS utility.
 
@@ -62,3 +70,7 @@ Finally, we use CSS transforms to `translateX(-50%)`. Because the transform work
 ## Wrapping up
 
 Hopefully this short and sweet trick will help you out on your projects. If it does, [drop me a tweet](https://twitter.com/andybelldesign), because I’d love to see it!
+
+## Comments
+
+<button class="buttoncmd" href="https://trusting-curran-0186ea.netlify.app/posts/a-post-with-code-samples/" on-click="tweet" id="addComment">Add a comment</button>
