@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: index.tsx
 title: A simple starter kit for Eleventy
 postsHeading: Latest posts
 archiveButtonText: See all posts
